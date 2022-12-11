@@ -11,13 +11,13 @@
 	</parent>
 
 	<groupId>com.aditya</groupId>
-	<artifactId>JUnit-Testing</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>JUnit-Testing</name>
+	<artifactId>app</artifactId>
+	<version>1</version>
+	<name>app</name>
 	<description>JUnit Testing Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>16</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
@@ -60,6 +60,11 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
